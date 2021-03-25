@@ -1,0 +1,52 @@
+var opt = '<style>textarea{white-space:nowrap;border-radius:15px 15px 0 0;resize:none;text-align:center;box-sizing:border-box;width:100%;padding:20px 0;line-height:1;font-size:30px!important;overflow:hidden}.btn-tao-ten{display:flex;justify-content:center;align-items:center;height:50px;width:100%}#btnTaoten{font-size:16px;font-weight:700;font-family:Futura-CondensedExtraBold,AvenirNextCondensed-Bold,-apple-system,sans-serif;border-radius:0 0 15px 15px;padding:0;flex:1;background:#eee;min-width:60px;outline:0!important;border:none;background:#ff8a00;background:linear-gradient(to top left,#007f99,#9900e5);color:#fff}select{width:100%}select option{line-height:20px}.row-tao-ten{padding-top:15px;padding-bottom:15px}.custom-select{position:relative;font-family:Arial;width:33.3%;display:inline-block}.input-group{position:relative;display:flex;border-collapse:separate}.form-control{display:block;width:100%;height:38px;padding:7px 12px!important;font-size:14px;line-height:1.42857143;background-color:#fff;background-image:none;border-radius:0!important;border:1px solid #bfcdd8}.input-group-addon{padding:18px 8px 7px 12px;font-size:14px;font-weight:400;line-height:1;color:#555;text-align:center;background-color:#eee;border:1px solid #e7e7e7;border-radius:13px 0 0 13px;width:10%}.form-group{padding:15px 0 0 0}.label{display:inline;padding:.2em .6em .3em;font-size:75%;font-weight:700;line-height:1;color:#fff;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25em}.label-success{background-color:#28b62c}.btn{display:inline-block;margin-bottom:0;font-weight:400;text-align:center;vertical-align:middle;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:7px 12px;font-size:13px;height:54px;border-radius:4px;user-select:none;border-radius:0 13px 13px 0}.btn-success{color:#fff;background-color:#28b62c;border-color:#23a127}button{background:#408c40;color:#fff!important}.ketqua{height:500px;overflow:auto}.tengame td{width:100px;border:1px solid #ddd;font-size:18px}.btn-cp{ display: none; } .btn-clear{ position: absolute; right: 15px; display: inline-block; }@media (max-width:767px){.custom-select{width:33.3%}.input-group-addon{width:17%}.ketqua{height:250px;overflow:auto}}</style><div id="symbols-content-container" class="tab-content col-md-12"><form method="POST" id="form-submit" onsubmit="return taoTen(),!1"><div id="symbol-message-container"> <textarea rows="1" required name="symbol-message" id="symbol-message"  placeholder="Nhập tên của bạn"></textarea><a class="btn-cp btn-info" id="copy-btn" data-clipboard-target="#symbol-message"><span id="copy_text">Copy</span></a> <a onclick="clearresult()" class="btn-clear btn-info" id="clear-btn"><span class="glyphicon glyphicon-remove"></span>❌</a></div><div class="row-tao-ten"><div class="custom-select"><select name="canhtrai" id="canhtrai" class="form-control"><option value="">Trái</option><option value="꧁༺">꧁༺</option><option value="◥ὦɧ◤">◥ὦɧ◤</option><option value="ᴳᵒᵈ乡">ᴳᵒᵈ乡</option><option value="ᵈʳᵉᵃᵐ乡">ᵈʳᵉᵃᵐ乡</option><option value="๖ۣۜҨž乡">Ҩž乡</option><option value="๖ۣۜƝƘ☆">๖ۣۜƝƘ☆</option><option value="ƒさ→">ƒさ→</option><option value="ᎮᏁ丶">ᎮᏁ丶</option><option value="ɱ√ρ︵">ɱ√ρ︵</option><option value="๖ACE✪">๖ACE✪</option><option value="ღᏠᎮღ">ღᏠᎮღ</option><option value="࿐">࿐</option><option value="๖">๖</option><option value="๖ۣۜ">๖ۣۜ</option><option value="ঔ">ঔ</option><option value="ঌ">ঌ</option><option value="♚">♚</option><option value="♕">♕</option><option value="✿">✿</option><option value="❄">❄</option><option value="❤">❤</option><option value="ツ">ツ</option><option value="ッ">ッ</option><option value="☆">☆</option><option value="‿✿">‿✿</option><option value="➻❥">➻❥</option><option value="❖︵">❖︵</option><option value="‿✶">‿✶</option><option value="︵✰">︵✰</option><option value="✎﹏">✎﹏</option><option value="ミ★">ミ★</option><option value="☠">☠</option><option value="❣">❣</option><option value="➻">➻</option><option value="ღ">ღ</option><option value="☂">☂</option><option value="❦">❦</option><option value="﹏">﹏</option><option value="❖">❖</option><option value="۶">۶</option><option value="✚">✚</option><option value="ʚɞ">ʚɞ</option><option value="╰☜">╰☜</option><option value="☞╯">☞╯</option><option value="✔">✔</option><option value="✾">✾</option><option value="♥">♥</option><option value="♪">♪</option><option value="✌">✌</option><option value="☝">☝</option><option value="☥">☥</option><option value="ッ">ッ</option><option value="♜">♜</option><option value="✟">✟</option><option value="❖">❖</option><option value="✦">✦</option><option value="✼">✼</option><option value="⊹⊱">⊹⊱</option><option value="⊰⊹">⊰⊹</option><option value="╰❥">╰❥</option><option value="↭">↭</option><option value="❛❜">❛❜</option><option value="₠">₠</option><option value="™">™</option><option value="℠">℠</option><option value="ᴾᴿᴼシ">ᴾᴿᴼシ</option><option value="ᵛᶰシ">ᵛᶰシ</option><option value="๖²⁴ʱ">๖²⁴ʱ</option></select></div><div class="custom-select"><select name="canhgiua" id="canhgiua" class="form-control"><option value="">Giữa</option><option value="ㅤ">Dấu cách đặc biệt</option><option value="乛">乛</option><option value="๛">๛</option><option value="丶">丶</option><option value="•">•</option><option value="๖">๖</option><option value="๖ۣۜ">๖ۣۜ</option><option value="ঔ">ঔ</option><option value="ঌ">ঌ</option><option value="♚">♚</option><option value="♕">♕</option><option value="✿">✿</option><option value="❄">❄</option><option value="❤">❤</option><option value="☆">☆</option><option value="☠">☠</option><option value="❣">❣</option><option value="➻">➻</option><option value="✎">✎</option><option value="ღ">ღ</option><option value="☂">☂</option><option value="❦">❦</option><option value="﹏">﹏</option><option value="❖">❖</option><option value="۶">۶</option><option value="✚">✚</option><option value="ʚɞ">ʚɞ</option><option value="✔">✔</option><option value="✾">✾</option><option value="♥">♥</option><option value="♪">♪</option><option value="✌">✌</option><option value="☝">☝</option><option value="☥">☥</option><option value="ッ">ッ</option><option value="♜">♜</option><option value="✟">✟</option><option value="❖">❖</option><option value="✦">✦</option><option value="✼">✼</option><option value="↭">↭</option></select></div><div class="custom-select"><select name="canhphai" id="canhphai" class="form-control"><option value="">Phải</option><option value="༻꧂">༻꧂</option><option value="ツ">ツ</option><option value="ッ">ッ</option><option value="✿‿">✿‿</option><option value="࿐">࿐</option><option value="⁀ᶦᵈᵒᶫ">⁀ᶦᵈᵒᶫ</option><option value=" ͜✿҈">͜✿҈</option><option value="ঔ">ঔ</option><option value="ঌ">ঌ</option><option value="♚">♚</option><option value="♕">♕</option><option value="✿">✿</option><option value="❄">❄</option><option value="❤">❤</option><option value="☆">☆</option><option value="❖︵">❖︵</option><option value="‿✶">‿✶</option><option value="︵✰">︵✰</option><option value="✎﹏">✎﹏</option><option value="﹏✍">﹏✍</option><option value="︵❣">︵❣</option><option value="﹏❣">﹏❣</option><option value="★彡">★彡</option><option value="☠">☠</option><option value="❣">❣</option><option value="➻">➻</option><option value="ღ">ღ</option><option value="☂">☂</option><option value="❦">❦</option><option value="❖">❖</option><option value="۶">۶</option><option value="✚">✚</option><option value="ʚɞ">ʚɞ</option><option value="╰☜">╰☜</option><option value="☞╯">☞╯</option><option value="✔">✔</option><option value="✾">✾</option><option value="♥">♥</option><option value="♪">♪</option><option value="✌">✌</option><option value="☝">☝</option><option value="☥">☥</option><option value="ッ">ッ</option><option value="⊹⊱">⊹⊱</option><option value="⊰⊹">⊰⊹</option><option value="╰❥">╰❥</option><option value="❛❜">❛❜</option><option value="₆₇₈₉">₆₇₈₉</option><option value="︵❻❾">︵❻❾</option><option value="︵⁸⁸">︵⁸⁸</option><option value="︵⁹⁰">︵⁹⁰</option><option value="︵⁹¹">︵⁹¹</option><option value="︵⁹²">︵⁹²</option><option value="︵⁹³">︵⁹³</option><option value="︵⁹⁴">︵⁹⁴</option><option value="︵⁹⁵">︵⁹⁵</option><option value="︵⁹⁶">︵⁹⁶</option><option value="︵⁹⁷">︵⁹⁷</option><option value="︵⁹⁸">︵⁹⁸</option><option value="︵⁹⁹">︵⁹⁹</option><option value="︵²⁰⁰⁰">︵²⁰⁰⁰</option><option value="︵²⁰⁰¹">︵²⁰⁰¹</option><option value="︵²⁰⁰²">︵²⁰⁰²</option><option value="︵²⁰⁰⁴">︵²⁰⁰⁴</option><option value="︵²⁰⁰⁵">︵²⁰⁰⁵</option><option value="₠">₠</option><option value="™">™</option><option value="℠">℠</option><option value="ᴾᴿᴼシ">ᴾᴿᴼシ</option><option value="ᵛᶰシ">ᵛᶰシ</option><option value="๖²⁴ʱ">๖²⁴ʱ</option></select></div></div><button type="submit" class="btn-tao-ten" id="btnTaoten">➫ Tạo tên ngay ➫</button></form><div id="result"></div></div>';
+function load_name() {
+    $(function() {
+        $("#taotenkitu").html(opt);
+
+    });
+}
+on_init(load_name);
+
+function copyToClipboardText(e) {
+    copyToClipboard(e.parentElement.parentElement.children[1]), e.classList.add("btn-success"), e.innerHTML = "Đã sao chép"
+
+}
+
+function copyToClipboard(e) {
+    var t;
+    target = e, target.focus(), target.setSelectionRange(0, target.value.length);
+    var result = target.value;
+    var name_root = document.getElementById("symbol-message").value;
+    var type = 1;
+    try {
+        t = document.execCommand("copy")
+    } catch (e) {
+        t = !1
+    }
+
+    return t
+}
+
+
+function taoTen() {
+    document.getElementById("btnTaoten").innerHTML = '<i class="icon-spinner animate-spin"></i> Chờ xíu ...';
+    var e = new XMLHttpRequest,text = document.getElementById("symbol-message").value,
+    t = "text=" + document.getElementById("symbol-message").value + "&canhtrai=" + document.getElementById("canhtrai").value + "&canhphai=" + document.getElementById("canhphai").value + "&canhgiua=" + document.getElementById("canhgiua").value;
+    try{
+        ga('send', 'event', 'Tao Ten', text)
+    } catch (t){
+        console.log('error')
+    }
+    
+
+    e.open("POST", "https://kituaz.com/ajax.php", !0), e.setRequestHeader("Content-type", "application/x-www-form-urlencoded"), e.onreadystatechange = function() {
+        4 == e.readyState && 200 == e.status && (document.getElementById("result").innerHTML = e.responseText, document.getElementById("btnTaoten").innerHTML = "✅ Xong! Bấm để tạo lại")
+    }, e.send(t)
+    
+}
+function clearresult(){
+    $( "#clear-btn" ).click(function() {
+      $( ".ketqua" ).remove();
+  });
+    console.log('clear');
+}
